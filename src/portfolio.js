@@ -153,7 +153,7 @@ const workExperiences = {
     {
       role: "Full Stack Web Assistant",
       company: "EdPlus at ASU",
-      companylogo: require("./assets/images/edpluslogo.png"),
+      companylogo: require("./assets/images/asu-logo-purple.png"),
       date: "Feb 2023 – Present",
       desc: "",
       descBullets: [
@@ -164,20 +164,26 @@ const workExperiences = {
     {
       role: "Software Developer Engineer",
       company: "Akamai Technolgies",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      companylogo: require("./assets/images/akamai-logo.png"),
+      date: "July 2021 – July 2022",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed a monitoring system for alerting data entry lags on SingleStore distributed database systems. Used Prometheus and Splunk features to include 2 billion rows of data added every day in alerting.",
+        "Programmed exhaustive python wrappers and frameworks on Flink for future scalability and deployment, increasing efficiency by 30x. Helped transfer millions of data rows to SingleStore DBs before sunsetting out Oracle DBs.",
+        "Created scripts to store all the monthly customer usage details of our products on an excel sheet. Did fundamental data analysis on the sheet, saving over a total of 2 hours per script run."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Developer Intern",
+      company: "Akamai",
+      companylogo: require("./assets/images/akamai-logo.png"),
+      date: "Jan 2021 – June 2021",
+      desc: "",
+      descBullets: [
+        "Modified the core open-source Airflow files to include a remedy force element for alerts of all applications scheduled.",
+        "Collaborated with a team of 7 to design and build multiple workflows of Flink data pipelines through airflow scheduler.",
+        "Overhauled a library of core legacy codes, making them future-proof and reusable for a new product launch."
+      ]
     },
     {
       role: "Software Engineer Intern",
@@ -194,7 +200,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
