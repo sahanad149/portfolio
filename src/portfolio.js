@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Suryanarayan Nagendra",
-  title: "Hi all, I'm Surya",
+  title: "Hey, I'm Surya",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience of building applications with Python / Javascript / AWS and some other cool libraries and frameworks."
+    "A passionate Software Developer 🚀 having experience in building applications with Python / Javascript / AWS and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://docs.google.com/document/d/12pIkcbXphMAYe4j083043eakK6-X080KEZ9kgGvd3m0/edit?usp=sharing", // Set to empty to hide the button
@@ -45,14 +45,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A FULL STACK DEVELOPER AT EDPLUS WORKING ON TERRAFORM AND AWS SERVICES INTEGRATION",
+  subTitle: "A Full Stack Developer at EdPlus working on Terraform, Docker and AWS services Integration",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop Python wrappers and DAGs in airflow application to schedule pipelines"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Monitor Pipelines/Data/Applications using Prometheus and Splunk"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Building custom Docker images and dockerfiles"
     )
   ],
 
@@ -109,8 +109,8 @@ const educationInfo = {
       duration: "August 2022 - May 2024",
       desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "CSE 545: Software Security | CSE 573: Semantic Web Mining | CSE 546: Cloud Computing",
+        "CSE 572: Data Mining | CSE 579: Knowledge Representation and Reasoning | CSE 575: Statistical Machine Learning  "
       ]
     },
     {
@@ -118,8 +118,8 @@ const educationInfo = {
       logo: require("./assets/images/pesulogo.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "August 2017 - May 2021",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "",
+      descBullets: [""]
     }
   ]
 };
@@ -153,17 +153,17 @@ const workExperiences = {
     {
       role: "Full Stack Web Assistant",
       company: "EdPlus at ASU",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      companylogo: require("./assets/images/edpluslogo.png"),
+      date: "Feb 2023 – Present",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Maintaining ASU online website supporting 82,000+ students and 300+ degree programs with Vue.js, AWS and Javascript.",
+        "Building custom Docker images and dockerfiles while handling its orchestration and containerization in AWS services using Terraform"
       ]
     },
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Software Developer Engineer",
+      company: "Akamai Technolgies",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
