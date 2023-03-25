@@ -164,7 +164,7 @@ const workExperiences = {
     {
       role: "Software Developer Engineer",
       company: "Akamai Technolgies",
-      companylogo: require("./assets/images/akamai-logo.png"),
+      companylogo: require("./assets/images/akamai-logo2.png"),
       date: "July 2021 – July 2022",
       desc: "",
       descBullets: [
@@ -175,8 +175,8 @@ const workExperiences = {
     },
     {
       role: "Software Developer Intern",
-      company: "Akamai",
-      companylogo: require("./assets/images/akamai-logo.png"),
+      company: "Akamai Technologies",
+      companylogo: require("./assets/images/akamai-logo2.png"),
       date: "Jan 2021 – June 2021",
       desc: "",
       descBullets: [
@@ -186,11 +186,15 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Summer Research Intern",
+      company: "IITB",
+      companylogo: require("./assets/images/iitb-logo.png"),
+      date: "May 2019 – July 2019",
+      desc: "",
+      descBullets: [
+        "Reconstructed plants into a 3D model using an Xbox Kinect to track growth non-intrusively and separate the leaves virtually using meshlab.",
+        "Automated the entire setup to reduce any human error and save 3+ hours of daily observation and analysis of the plants."
+      ]
     }
   ]
 };
