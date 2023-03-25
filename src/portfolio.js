@@ -254,7 +254,14 @@ const achievementSection = {
       subtitle:
         "E-Yantra Robotics Competition (e-YRC) 2019: 1st Place; part of a team of 4 to build a robot to find 'food' boxes efficiently.",
       image: require("./assets/images/eyrc-logo.png"),
-      imageAlt: "E-yantra Robotics IIT Bombay"
+      imageAlt: "E-yantra Robotics IIT Bombay",
+      footerLink: [
+        {name: "Certification", url: ""},
+        {
+          name: "Final Project",
+          url: "https://pakistan-olx-1.firebaseapp.com/"
+        }
+      ]
     },
     {
       title: "Game Oasis Hackathon Winners",
@@ -262,21 +269,28 @@ const achievementSection = {
         "Led a team of 3 in building co-op game on Unity using layer 2 blockchain network.",
       image: require("./assets/images/goh-logo.jpg"),
       imageAlt: "Game Oasis Hackathon",
+      footerLink: [
+        {name: "Certification", url: ""},
+        {
+          name: "Final Project",
+          url: "https://pakistan-olx-1.firebaseapp.com/"
+        }
+      ]
     },
 
-    // {
-    //   title: "PWA Web App Developer",
-    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //   image: require("./assets/images/pwaLogo.webp"),
-    //   imageAlt: "PWA Logo",
-    //   footerLink: [
-    //     {name: "Certification", url: ""},
-    //     {
-    //       name: "Final Project",
-    //       url: "https://pakistan-olx-1.firebaseapp.com/"
-    //     }
-    //   ]
-    // }
+    {
+      title: "PWA Web App Developer",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: ""},
+        {
+          name: "Final Project",
+          url: "https://pakistan-olx-1.firebaseapp.com/"
+        }
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
