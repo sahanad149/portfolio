@@ -210,29 +210,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Major ",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/deepfake-logo.webp"),
+      projectName: "Deepfake Detection",
+      projectDesc: "Deepfake detection of any kind of media using Deep Learning models. Built a website for anyone to test for deepfakes. ",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: " https://detect-deepfake.web.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Rideshare on AWS",
+      projectDesc: "Built a fault-tolerant, highly available DB as a master-slave architecture on Amazon EC2 instances.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/Surya-Narayan/Cloud-Computing"
         }
       ]
     }
@@ -250,9 +250,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "E-yantra Winners 2019",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "E-Yantra Robotics Competition (e-YRC) 2019: 1st Place; part of a team of 4 to build a robot to find 'food' boxes efficiently.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
