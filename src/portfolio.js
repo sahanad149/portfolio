@@ -45,7 +45,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A FULL STACK DEVELOPER AT EDPLUS WORKING ON TERRAFORM AND AWS SERVICES INTEGRATION",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -92,14 +92,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    },
-    {
-      skillName: "Graphana",
-      fontAwesomeClassname: "fa-duotone fa-chart-simple"
-    },
-    {
-      skillName:"Git",
-      fontAwesomeClassname: "fa-solid fa-code-branch"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -125,7 +117,7 @@ const educationInfo = {
       schoolName: "PES University",
       logo: require("./assets/images/pesulogo.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      duration: "August 2017 - May 2021",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -138,15 +130,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Backend/Cloud/Python/Docker", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "SQLs/Databases/Flink",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Frontend/Networks/R",
       progressPercentage: "60%"
     }
   ],
@@ -158,6 +150,17 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Full Stack Web Assistant",
+      company: "EdPlus at ASU",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "June 2018 – Present",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
     {
       role: "Software Engineer",
       company: "Facebook",
