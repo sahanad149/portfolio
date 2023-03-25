@@ -253,7 +253,7 @@ const achievementSection = {
       title: "E-yantra Winners 2019",
       subtitle:
         "E-Yantra Robotics Competition (e-YRC) 2019: 1st Place; part of a team of 4 to build a robot to find 'food' boxes efficiently.",
-      image: require("./assets/images/eyrc-logo.png"),
+      image: require("./assets/images/eyantra-logo.png"),
       imageAlt: "E-yantra Robotics IIT Bombay",
       footerLink: [
       ]
@@ -262,7 +262,7 @@ const achievementSection = {
       title: "Game Oasis Hackathon Winners",
       subtitle:
         "Led a team of 3 in building co-op game on Unity using layer 2 blockchain network.",
-      image: require("./assets/images/goh-logo.jpg"),
+      image: require("./assets/images/matic-logo.png"),
       imageAlt: "Game Oasis Hackathon",
       footerLink: [
       ]
