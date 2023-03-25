@@ -304,22 +304,22 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Papers",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "Research papers published at IEEE",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://ieeexplore.ieee.org/document/9913572",
+      title: "Enhancing action maze video games using Shuffled Frog Leaping Algorithm",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "IEEE 5th International Conference on Computational Intelligence and Communication Technologies (CCICT) -  Jul 9, 2022"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://ieeexplore.ieee.org/document/9825423",
+      title: "Detection of Morphed Face, Body, Audio signals using Deep Neural Networks",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "IEEE 7th International Conference for Convergence in Technology (I2CT) - Apr 7, 2022"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -341,7 +341,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
