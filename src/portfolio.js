@@ -186,18 +186,6 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Developer Intern",
-      company: "Akamai Technologies",
-      companylogo: require("./assets/images/akamai-logo2.png"),
-      date: "Jan 2021 – June 2021",
-      desc: "",
-      descBullets: [
-        "Modified the core open-source Airflow files to include a remedy force element for alerts of all applications scheduled.",
-        "Collaborated with a team of 7 to design and build multiple workflows of Flink data pipelines through airflow scheduler.",
-        "Overhauled a library of core legacy codes, making them future-proof and reusable for a new product launch."
-      ]
-    },
-    {
       role: "Summer Research Intern",
       company: "IITB",
       companylogo: require("./assets/images/iitb-logo.png"),
