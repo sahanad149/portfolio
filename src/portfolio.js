@@ -119,7 +119,10 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "August 2017 - May 2021",
       desc: "",
-      descBullets: [""]
+      descBullets: [
+        " Object Oritented Modelling and Design, Cloud Computing, Unix Shell Programming, Topics in Deep Learning",
+        " Data Structures, Operating Systems, Big Data, Social Network Analysis, Software Engineering"
+      ]
     }
   ]
 };
