@@ -109,8 +109,8 @@ const educationInfo = {
       duration: "August 2022 - May 2024",
       desc: "",
       descBullets: [
-        "CSE 545: Software Security | CSE 573: Semantic Web Mining | CSE 546: Cloud Computing",
-        "CSE 572: Data Mining | CSE 579: Knowledge Representation and Reasoning | CSE 575: Statistical Machine Learning  "
+        "CSE 545: Software Security, CSE 573: Semantic Web Mining, CSE 546: Cloud Computing",
+        "CSE 572: Data Mining, CSE 579: Knowledge Representation and Reasoning, CSE 575: Statistical Machine Learning"
       ]
     },
     {
