@@ -234,8 +234,19 @@ const bigProjects = {
       projectDesc: "Built a fault-tolerant, highly available DB as a master-slave architecture on Amazon EC2 instances.",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit repo",
           url: "https://github.com/Surya-Narayan/Cloud-Computing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/pacman-logo.png"),
+      projectName: "SFLA in Pacman",
+      projectDesc: "Shuffled Frog Leaping Algorithm algorithm implemented in Pacman game to catch the player more intelligently",
+      footerLink: [
+        {
+          name: "Visit repo",
+          url: "https://github.com/Surya-Narayan/Pacman"
         }
       ]
     }
