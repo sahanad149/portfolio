@@ -116,7 +116,7 @@ const educationInfo = {
     {
       schoolName: "PES University",
       logo: require("./assets/images/pesulogo.jpeg"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Bachelor of Technology in Computer Science & Engineering",
       duration: "August 2017 - May 2021",
       desc: "",
       descBullets: [
