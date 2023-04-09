@@ -276,7 +276,7 @@ const achievementSection = {
       title: "Game Oasis Hackathon Winners",
       subtitle:
         "Led a team of 3 in building co-op game on Unity using layer 2 blockchain network.",
-      image: require("./assets/images/matic-logo2.webp"),
+      image: require("./assets/images/blockchain-logo.png"),
       imageAlt: "Game Oasis Hackathon",
       footerLink: [
       ]
