@@ -281,7 +281,15 @@ const achievementSection = {
       footerLink: [
       ]
     },
-
+    {
+      title: "Intel ADAS Competition Finalists",
+      subtitle:
+        "Built a drowsiness detection on drivers trained on ML models",
+      image: require("./assets/images/intel-logo.png"),
+      imageAlt: "Intel OpenVino Drowsiness Detection",
+      footerLink: [
+      ]
+    },
     // {
     //   title: "PWA Web App Developer",
     //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
