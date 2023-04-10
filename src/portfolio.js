@@ -239,7 +239,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/pacman-logo.png"),
+      image: require("./assets/images/pacman-logo2.png"),
       projectName: "SFLA in Pacman",
       projectDesc: "Shuffled Frog Leaping Algorithm algorithm implemented in Pacman game to catch the player more intelligently",
       footerLink: [
@@ -279,6 +279,17 @@ const bigProjects = {
         {
           name: "Visit repo",
           url: "https://github.com/ACV11/Spotify-Clone"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/xbox-logo.png"),
+      projectName: "3d Reconstruction of Plant leaves",
+      projectDesc: "Used Xbox Kinect 360, Meshlab and OpenCV to 3d reconstruct a plant and split leaves to track their measurements",
+      footerLink: [
+        {
+          name: "Visit Demo",
+          url: "https://www.youtube.com/watch?v=uF8UXjIiV0A"
         }
       ]
     },
