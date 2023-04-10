@@ -299,24 +299,6 @@ const achievementSection = {
       footerLink: [
       ]
     },
-    {
-      title: "ASA DataFest Hackathon Mentor",
-      subtitle:
-        "Mentored undergraduate participants in ASA Datafest Hackathon held across multiple colleges in Arizona State ",
-      image: require("./assets/images/datafest-logo.png"),
-      imageAlt: "Intel OpenVino Drowsiness Detection",
-      footerLink: [
-      ]
-    },
-    {
-      title: "ASA DataFest Hackathon Mentor",
-      subtitle:
-        "Mentored undergraduate participants in ASA Datafest Hackathon held across multiple colleges in Arizona State ",
-      image: require("./assets/images/datafest-logo.png"),
-      imageAlt: "Intel OpenVino Drowsiness Detection",
-      footerLink: [
-      ]
-    },
     // {
     //   title: "PWA Web App Developer",
     //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
