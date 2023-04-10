@@ -272,7 +272,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/Pokemon-logo.webp"),
+      image: require("./assets/images/pokemon-logo.png"),
       projectName: "Pokemon generation with color DCGAN",
       projectDesc: "Used Pokemon dataset to generate new pokemons with the help of color dcgan",
       footerLink: [
