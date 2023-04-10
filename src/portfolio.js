@@ -264,6 +264,59 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
+const bigProjects2 = {
+  title: "",
+  subtitle: "ML based Projects ",
+  projects: [
+    {
+      image: require("./assets/images/deepfake-logo.webp"),
+      projectName: "Deepfake Detection",
+      projectDesc: "Deepfake detection of any kind of media using Deep Learning models. Built a website for anyone to test for deepfakes. ",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: " https://detect-deepfake.web.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/rideshare-logo.png"),
+      projectName: "Rideshare on AWS",
+      projectDesc: "Built a fault-tolerant, highly available DB as a master-slave architecture on Amazon EC2 instances.",
+      footerLink: [
+        {
+          name: "Visit repo",
+          url: "https://github.com/Surya-Narayan/Cloud-Computing/tree/master/CC_0094_0155_0260_1509_Final_Project"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/pacman-logo.png"),
+      projectName: "SFLA in Pacman",
+      projectDesc: "Shuffled Frog Leaping Algorithm algorithm implemented in Pacman game to catch the player more intelligently",
+      footerLink: [
+        {
+          name: "Visit repo",
+          url: "https://github.com/Surya-Narayan/Pacman"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/hive-logo.png"),
+      projectName: "Mini Hive Engine",
+      projectDesc: "Map-Reduce-based mini SQL Engine on Hadoop supporting SQL queries like select, load, delete, and aggregate functions",
+      footerLink: [
+        {
+          name: "Visit repo",
+          url: "https://github.com/Surya-Narayan/MiniHiveEngine"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
 // Achievement Section
 // Include certificates, talks etc
 
