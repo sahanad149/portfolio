@@ -283,7 +283,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/xbox-logo2.jpg"),
+      image: require("./assets/images/xbox-logo3.png"),
       projectName: "3d Reconstruction of Plant leaves",
       projectDesc: "Used Xbox Kinect 360, Meshlab and OpenCV to 3d reconstruct a plant and split leaves to track their measurements",
       footerLink: [
