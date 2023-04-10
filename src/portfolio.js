@@ -268,14 +268,20 @@ const bigProjects = {
         {
           name: "Visit repo",
           url: "https://github.com/ACV11/Spotify-Clone"
-        },
-        {
-          name:"visit site",
-          url:"https://github.com/ACV11/Spotify-Clone"
         }
       ]
     },
-
+    {
+      image: require("./assets/images/Pokemon-logo.webp"),
+      projectName: "Pokemon generation with color DCGAN",
+      projectDesc: "Used Pokemon dataset to generate new pokemons with the help of color dcgan",
+      footerLink: [
+        {
+          name: "Visit repo",
+          url: "https://github.com/ACV11/Spotify-Clone"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
