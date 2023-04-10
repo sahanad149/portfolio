@@ -463,6 +463,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
+  bigProjects2,
   achievementSection,
   blogSection,
   talkSection,
