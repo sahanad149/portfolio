@@ -235,7 +235,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit repo",
-          url: "https://github.com/Surya-Narayan/Cloud-Computing"
+          url: "https://github.com/Surya-Narayan/Cloud-Computing/tree/master/CC_0094_0155_0260_1509_Final_Project"
         }
       ]
     },
@@ -247,6 +247,17 @@ const bigProjects = {
         {
           name: "Visit repo",
           url: "https://github.com/Surya-Narayan/Pacman"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/hive-logo.png"),
+      projectName: "Mini Hive Engine",
+      projectDesc: "Map-Reduce-based mini SQL Engine on Hadoop supporting SQL queries like select, load, delete, and aggregate functions",
+      footerLink: [
+        {
+          name: "Visit repo",
+          url: "https://github.com/Surya-Narayan/MiniHiveEngine"
         }
       ]
     }
