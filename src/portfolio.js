@@ -190,7 +190,7 @@ const workExperiences = {
     },
     {
       role: "Summer Research Intern",
-      company: "IITB",
+      company: "IIT-Bombay",
       companylogo: require("./assets/images/iitb-logo.png"),
       date: "May 2019 – July 2019",
       desc: "",
@@ -260,7 +260,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Participations and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
@@ -275,7 +275,7 @@ const achievementSection = {
     {
       title: "Game Oasis Hackathon Winners",
       subtitle:
-        "Led a team of 3 in building co-op game on Unity using layer 2 blockchain network.",
+        "Led a team of 3 in building co-op game on Unity using layer 2 Matic blockchain network.",
       image: require("./assets/images/matic-logo4.png"),
       imageAlt: "Game Oasis Hackathon",
       footerLink: [
@@ -286,6 +286,15 @@ const achievementSection = {
       subtitle:
         "Built a drowsiness detection on drivers trained on ML models",
       image: require("./assets/images/intel-logo.png"),
+      imageAlt: "Intel OpenVino Drowsiness Detection",
+      footerLink: [
+      ]
+    },
+    {
+      title: "ASA DataFest Hackathon Mentor",
+      subtitle:
+        "Mentored undergraduate participants in ASA Datafest Hackathon held across multiple colleges in Arizona State ",
+      image: require("./assets/images/datafest-logo.png"),
       imageAlt: "Intel OpenVino Drowsiness Detection",
       footerLink: [
       ]
