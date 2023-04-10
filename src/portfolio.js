@@ -173,7 +173,6 @@ const workExperiences = {
       descBullets: [
         "Developed a monitoring system for alerting data entry lags on SingleStore distributed database systems. Used Prometheus and Splunk features to include 2 billion rows of data added every day in alerting.",
         "Programmed exhaustive python wrappers and frameworks on Flink for future scalability and deployment, increasing efficiency by 30x. Helped transfer millions of data rows to SingleStore DBs before sunsetting out Oracle DBs.",
-        "Created scripts to store all the monthly customer usage details of our products on an excel sheet. Did fundamental data analysis on the sheet, saving over a total of 2 hours per script run."
       ]
     },
     {
