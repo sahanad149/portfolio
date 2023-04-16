@@ -370,7 +370,7 @@ const extracurricular = {
       title: "Volunteer for Aikya",
       subtitle:
         "Served food and taught government primary school kids under Akshaya Patra Foundation",
-      image: require("./assets/images/akshaya-logo.png"),
+      image: require("./assets/images/akshaya-logo.jpg"),
       imageAlt: "ASA DataFest Hackathon Mentor",
       footerLink: [ 'https://www.linkedin.com/company/the-akshaya-patra-foundation/ '
       ]
