@@ -333,15 +333,6 @@ const achievementSection = {
       footerLink: [
       ]
     },
-    {
-      title: "ASA DataFest Hackathon Mentor",
-      subtitle:
-        "Mentored undergraduate participants in ASA Datafest Hackathon held across multiple colleges in Arizona State ",
-      image: require("./assets/images/datafest-logo.png"),
-      imageAlt: "Intel OpenVino Drowsiness Detection",
-      footerLink: [
-      ]
-    },
     // {
     //   title: "PWA Web App Developer",
     //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
@@ -371,10 +362,21 @@ const extracurricular = {
       subtitle:
         "Mentored undergraduate participants in ASA Datafest Hackathon held across multiple colleges in Arizona State ",
       image: require("./assets/images/datafest-logo.png"),
-      imageAlt: "Intel OpenVino Drowsiness Detection",
+      imageAlt: "ASA DataFest Hackathon Mentor",
       footerLink: [
       ]
     },
+    {
+      title: "Volunteer for Aikya",
+      subtitle:
+        "Served food and taught government primary school kids under Akshaya Patra Foundation",
+      image: require("./assets/images/akshaya-logo.png"),
+      imageAlt: "ASA DataFest Hackathon Mentor",
+      footerLink: [ 'https://www.linkedin.com/company/the-akshaya-patra-foundation/ '
+      ]
+    },
+
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
