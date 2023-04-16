@@ -7,7 +7,7 @@ import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
-import extraCurricular from "./extraCurricular/extraCurricular";
+import ExtraCurricular from "./extraCurricular/extraCurricular";
 import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
@@ -61,7 +61,7 @@ const Main = () => {
             <StartupProject />
             <Achievement />
             <Blogs />
-            <extraCurricular />
+            <ExtraCurricular />
             <Talks />
             <Twitter />
             <Podcast />
