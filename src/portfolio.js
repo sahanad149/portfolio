@@ -363,21 +363,36 @@ const extracurricular = {
         "Mentored undergraduate participants in ASA Datafest Hackathon held across multiple colleges in Arizona State ",
       image: require("./assets/images/datafest-logo.png"),
       imageAlt: "ASA DataFest Hackathon Mentor",
-      footerLink: [
+      footerLink: [ 
       ]
     },
     {
       title: "Volunteer for Aikya",
       subtitle:
         "Served food and taught government primary school kids under Akshaya Patra Foundation",
-      image: require("./assets/images/aikya-logo.png"),
+      image: require("./assets/images/aikya-logo-1.png"),
       imageAlt: "Akshaya Patra Foundation logo",
       footerLink: [ {
-        name: "Company",
+        name: "NGO Website",
         url: "https://www.linkedin.com/company/the-akshaya-patra-foundation/"
       }
       ]
     },
+
+    {
+      title: "PES DebSoc Member",
+      subtitle:
+        "Member of PES University Debate Society",
+      image: require("./assets/images/pes-debsoc-logo.jpeg"),
+      imageAlt: "PES Debsoc Logo",
+      footerLink: [ {
+        name: "Link",
+        url: "https://clubs.pes.edu/debate-society"
+      }
+      ]
+    },
+
+    
 
 
   ],
