@@ -359,6 +359,26 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+// mimick achievemnt section again 
+// extra-curricular section
+const extracurricular = {
+  title: emoji("Extra Curricular "),
+  subtitle:
+    "Outside Work and Projects",
+  achievementsCards: [
+    {
+      title: "ASA DataFest Hackathon Mentor",
+      subtitle:
+        "Mentored undergraduate participants in ASA Datafest Hackathon held across multiple colleges in Arizona State ",
+      image: require("./assets/images/datafest-logo.png"),
+      imageAlt: "Intel OpenVino Drowsiness Detection",
+      footerLink: [
+      ]
+    },
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
 // Blogs Section
 
 const blogSection = {
@@ -444,6 +464,7 @@ export {
   openSource,
   bigProjects,
   achievementSection,
+  extracurricular,
   blogSection,
   talkSection,
   podcastSection,
