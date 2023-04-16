@@ -4,7 +4,7 @@ import AchievementCard from "../../components/achievementCard/AchievementCard";
 import {extracurricular} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
-export default function extraCurricular() {
+export default function ExtraCurricular() {
   const {isDark} = useContext(StyleContext);
   if (!extracurricular.display) {
     return null;
