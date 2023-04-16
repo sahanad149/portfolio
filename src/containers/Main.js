@@ -61,7 +61,7 @@ const Main = () => {
             <StartupProject />
             <Achievement />
             <Blogs />
-            <extraCurricular/>
+            <extraCurricular />
             <Talks />
             <Twitter />
             <Podcast />
