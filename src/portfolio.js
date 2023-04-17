@@ -156,7 +156,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern",
       company: "Rocket Companies",
-      companylogo: require("./assets/images/rocket-logo-white.png"),
+      companylogo: require("./assets/images/rocket-logo-red.png"),
       date: "May 2023 – Present",
       desc: "",
       descBullets: [
