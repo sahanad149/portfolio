@@ -178,7 +178,7 @@ const workExperiences = {
     {
       role: "Software Developer Engineer",
       company: "Akamai Technolgies",
-      companylogo: require("./assets/images/akamai-logo-svg.svg"),
+      companylogo: require("./assets/images/akamai-small-logo.png"),
       date: "July 2021 – July 2022",
       desc: "",
       descBullets: [
