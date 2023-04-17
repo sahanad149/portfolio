@@ -154,6 +154,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer Intern",
+      company: "Rocket Companies",
+      companylogo: require("./assets/images/rocket-logo.png"),
+      date: "May 2023 – Present",
+      desc: "",
+      descBullets: [
+        "Maintaining ASU online website supporting 82,000+ students and 300+ degree programs with Vue.js, AWS and Javascript.",
+        "Building custom Docker images and dockerfiles while handling its orchestration and containerization in AWS services using Terraform"
+      ]
+    },
+    {
       role: "Full Stack Web Assistant",
       company: "EdPlus at ASU",
       companylogo: require("./assets/images/asu-logo-purple.png"),
