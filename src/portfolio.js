@@ -189,7 +189,7 @@ const workExperiences = {
     {
       role: "Software Developer Intern",
       company: "Akamai Technologies",
-      companylogo: require("./assets/images/akamai-logo2.png"),
+      companylogo: require("./assets/images/akamai-logo-white.png"),
       date: "Jan 2021 – June 2021",
       desc: "",
       descBullets: [
@@ -201,7 +201,7 @@ const workExperiences = {
     {
       role: "Summer Research Intern",
       company: "IIT-Bombay",
-      companylogo: require("./assets/images/iitb-logo.png"),
+      companylogo: require("./assets/images/iitb-logo-white.jpg"),
       date: "May 2019 – July 2019",
       desc: "",
       descBullets: [
