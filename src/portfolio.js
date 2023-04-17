@@ -333,6 +333,15 @@ const achievementSection = {
       footerLink: [
       ]
     },
+    {
+      title: "ASA DataFest Hackathon Mentor",
+      subtitle:
+        "Mentored undergraduate participants in ASA Datafest Hackathon held across multiple colleges in Arizona State ",
+      image: require("./assets/images/datafest-logo.png"),
+      imageAlt: "ASA DataFest Hackathon Mentor",
+      footerLink: [ 
+      ]
+    },
     // {
     //   title: "PWA Web App Developer",
     //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
@@ -355,17 +364,8 @@ const achievementSection = {
 const extracurricular = {
   title: emoji("Extra Curricular "),
   subtitle:
-    "Outside Work and Projects",
+    "Clubs, Volunteering and things outside tech",
   achievementsCards: [
-    {
-      title: "ASA DataFest Hackathon Mentor",
-      subtitle:
-        "Mentored undergraduate participants in ASA Datafest Hackathon held across multiple colleges in Arizona State ",
-      image: require("./assets/images/datafest-logo.png"),
-      imageAlt: "ASA DataFest Hackathon Mentor",
-      footerLink: [ 
-      ]
-    },
     {
       title: "Volunteer for Aikya",
       subtitle:
@@ -386,17 +386,27 @@ const extracurricular = {
       image: require("./assets/images/pes-debsoc-logo.jpeg"),
       imageAlt: "PES Debsoc Logo",
       footerLink: [ {
-        name: "Link",
+        name: "About DebSoc",
         url: "https://clubs.pes.edu/debate-society"
       }
       ]
     },
 
-    
-
+    {
+      title: "Aatmatrisha-19 Fest Organizer",
+      subtitle:
+        "Organizer for Aatmatrisha fest, the annual techno-cultural fest of PES University.",
+      image: require("./assets/images/pes-debsoc-logo.jpeg"),
+      imageAlt: "PES Debsoc Logo",
+      footerLink: [ {
+        name: "About fest",
+        url: "https://clubs.pes.edu/aatmatrisha"
+      }
+      ]
+    },
 
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
