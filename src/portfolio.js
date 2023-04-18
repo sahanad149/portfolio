@@ -80,7 +80,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -96,6 +95,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "android",
       fontAwesomeClassname: "fab fa-android"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-github"
     },
 
   ],
