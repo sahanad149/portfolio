@@ -100,7 +100,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "git",
       fontAwesomeClassname: "fab fa-github"
     },
-
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
