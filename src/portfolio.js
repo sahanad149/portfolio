@@ -92,7 +92,12 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "android",
+      fontAwesomeClassname: "fab fa-android"
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
