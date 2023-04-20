@@ -214,7 +214,7 @@ const workExperiences = {
       company: "IIT-Bombay",
       companylogo: require("./assets/images/iitb-logo-white.jpg"),
       date: "May 2019 – July 2019",
-      desc: "",
+      desc: " ",
       descBullets: [
         "Reconstructed plants into a 3D model using an Xbox Kinect to track growth non-intrusively and separate the leaves virtually using meshlab.",
         "Automated the entire setup to reduce any human error and save 3+ hours of daily observation and analysis of the plants."
