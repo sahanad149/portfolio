@@ -208,7 +208,8 @@ const workExperiences = {
       descBullets: [
         "Modified the core open-source Airflow files to include a remedy force element for alerts of all applications scheduled.",
         "Collaborated with a team of 7 to design and build multiple workflows of Flink data pipelines through airflow scheduler.",
-        "Overhauled a library of core legacy codes, making them future-proof and reusable for a new product launch."
+        // "Overhauled a library of core legacy codes, making them future-proof and reusable for a new product launch."
+        "Overhauled a library of core legacy codes with SOLID principles, increasing code reusability for future products by 60%."
       ]
     },
     {
