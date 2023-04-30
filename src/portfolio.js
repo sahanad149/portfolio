@@ -282,17 +282,17 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/spotify-logo.png"),
-      projectName: "Spotify Clone Website",
-      projectDesc: "Built a music website to search and play songs, with music recommendation data analysis from spotify dataset",
-      footerLink: [
-        {
-          name: "Visit repo",
-          url: "https://github.com/ACV11/Spotify-Clone"
-        }
-      ]
-    },
+    // {
+    //   image: require("./assets/images/spotify-logo.png"),
+    //   projectName: "Spotify Clone Website",
+    //   projectDesc: "Built a music website to search and play songs, with music recommendation data analysis from spotify dataset",
+    //   footerLink: [
+    //     {
+    //       name: "Visit repo",
+    //       url: "https://github.com/ACV11/Spotify-Clone"
+    //     }
+    //   ]
+    // },
     {
       image: require("./assets/images/pokemon-logo.png"),
       projectName: "Pokemon generation with color DCGAN",
