@@ -182,8 +182,8 @@ const workExperiences = {
       date: "Feb 2023 – Present",
       desc: "",
       descBullets: [
-        "Maintaining ASU online website supporting 82,000+ students and 300+ degree programs with Vue.js, AWS and Javascript.",
-        "Building custom Docker images and dockerfiles while handling its orchestration and containerization in AWS services using Terraform",
+        // "Maintaining ASU online website supporting 82,000+ students and 300+ degree programs with Vue.js, AWS and Javascript.",
+        // "Building custom Docker images and dockerfiles while handling its orchestration and containerization in AWS services using Terraform",
         "Developed a full fledged scheduling app using AWS Amplify and Vue3, customizing functionalities usingTailwind, Cognito, DynamoDB, GraphQL, and Lambda. Replaced the Doodle scheduler app and reduced costs by 70%.",
         "Conducted a successful Proof of Concept using Terraform and AWSECR to automate the deployment of containerized applications, reducing deployment time by 30%."
       ]
