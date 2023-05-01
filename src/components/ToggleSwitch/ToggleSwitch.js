@@ -12,10 +12,10 @@ const ToggleSwitch = () => {
     <label className="switch">
       <input
         type="checkbox"
-        checked={isDark}
+        checked={!isDark}
         onChange={() => {
           styleContext.changeTheme();
-          setChecked(isChecked);
+          setChecked(!isChecked);
         }}
       />
       <span className="slider round">
