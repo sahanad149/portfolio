@@ -243,7 +243,7 @@ const bigProjects = {
     {
       image: require("./assets/images/openstack-logo3.png"),
       projectName: "Hybrid Cloud Smart Classrom",
-      projectDesc: "Used AWS and RedHat OpenStack for a hybrid cloud setup to detect student faces in a classroom",
+      projectDesc: "Used AWS services and RedHat OpenStack for a hybrid cloud setup to detect student faces in a classroom",
       footerLink: [
         {
           name: "Visit repo",
