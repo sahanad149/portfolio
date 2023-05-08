@@ -241,8 +241,8 @@ const bigProjects = {
   subtitle: "Some of my most favrorite projects in no particular order",
   projects: [
     {
-      image: require("./assets/images/openstack-logo.png"),
-      projectName: "Deepfake Detection",
+      image: require("./assets/images/openstack-logo2.svg"),
+      projectName: "Smart Classrom",
       projectDesc: "Deepfake detection of any kind of media using Deep Learning models. Built a website for anyone to test for deepfakes. ",
       footerLink: [
         {
