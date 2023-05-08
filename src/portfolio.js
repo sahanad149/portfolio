@@ -238,7 +238,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Major ",
+  subtitle: "Some of my most favrorite projects in no particular order",
   projects: [
     {
       image: require("./assets/images/deepfake-logo.webp"),
