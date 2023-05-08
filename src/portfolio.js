@@ -241,13 +241,13 @@ const bigProjects = {
   subtitle: "Some of my most favrorite projects in no particular order",
   projects: [
     {
-      image: require("./assets/images/openstack-logo2.svg"),
-      projectName: "Smart Classrom",
-      projectDesc: "Deepfake detection of any kind of media using Deep Learning models. Built a website for anyone to test for deepfakes. ",
+      image: require("./assets/images/openstack-logo3.png"),
+      projectName: "Hybrid Cloud Smart Classrom",
+      projectDesc: "Used AWS and RedHat OpenStack for a hybrid cloud setup to detect student faces in a classroom",
       footerLink: [
         {
-          name: "Visit Website",
-          url: " https://detect-deepfake.web.app/"
+          name: "Visit repo",
+          url: "https://github.com/Surya-Narayan/546-lambda"
         }
         //  you can add extra buttons here.
       ]
