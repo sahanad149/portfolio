@@ -20,22 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Suryanarayan Nagendra",
-  title: "Hey, I'm Surya",
+  username: "Prajwal Mahaveera",
+  title: "Hey, I'm Prajwal",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having experience in building applications with Python / Javascript / AWS and some other cool libraries and frameworks."
+    "A Computer Science Graduate Student at Arizona State University passionate about Software Development with experience in building applications with Javascript / AWS and proficiency in Java/C."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/12pIkcbXphMAYe4j083043eakK6-X080KEZ9kgGvd3m0/edit?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1z7oDqWKtvx5biHFJxsLAU8Kuyw5I3YF8/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Surya-Narayan",
-  linkedin: "https://www.linkedin.com/in/suryanarayan01/",
-  gmail: "surya.narayan@asu.edu",
+  gmail: "pmahavee@asu.edu",
+  github: "https://github.com/Prajwal-1999-max",
+  linkedin: "https://www.linkedin.com/in/prajwal-mahaveera",
+  
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -44,16 +45,16 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "A Full Stack Developer at EdPlus working on Terraform, Docker and AWS services Integration",
+  title: "More about me", 
+  subTitle: "A Full Stack Developer with goal-driven creative mindset and passion to learn and innovate.",
   skills: [
     emoji(
-      "⚡ Develop Python wrappers and DAGs in airflow application to schedule pipelines"
+      "⚡ Currently pursuing Master's in Computer Science at Arizona State University with an experience of 1 year as an Application Development Associate at Accenture and Software Development Intern at Surya Software Pvt Ltd."
     ),
-    emoji("⚡ Monitor Pipelines/Data/Applications using Prometheus and Splunk"),
-    emoji(
-      "⚡ Building custom Docker images and dockerfiles"
-    )
+    emoji("⚡ Currently looking for SDE Roles")
+    // emoji(
+    //   "⚡ Building custom Docker images and dockerfiles"
+    // )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -81,16 +82,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "react",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "android",
@@ -101,8 +102,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "Linux",
-      fontAwesomeClassname: "fab fa-linux"
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -120,19 +121,20 @@ const educationInfo = {
       duration: "August 2022 - May 2024",
       desc: "",
       descBullets: [
-        "CSE 545: Software Security, CSE 573: Semantic Web Mining, CSE 546: Cloud Computing",
-        "CSE 572: Data Mining, CSE 579: Knowledge Representation and Reasoning, CSE 575: Statistical Machine Learning"
+        "CSE 460: Software Analysis and Development, CSE 463: Intro to Human-Computer Interaction, CSE 512: Distributed Database Systems",
+        "CSE 545: Software Security, CSE 535: Mobile Computing, CSE 539: Applied Cryptography",
+        "CSE 551: Foundations of Algorithms, CSE 573: Semantic Web Mining, CSE 575: Statistical Machine Learning"
       ]
     },
     {
-      schoolName: "PES University",
-      logo: require("./assets/images/pesulogo.jpeg"),
-      subHeader: "Bachelor of Technology in Computer Science & Engineering",
-      duration: "August 2017 - May 2021",
+      schoolName: "RNS Institute of Technology",
+      logo: require("./assets/images/RNSITimage.png"),
+      subHeader: "Bachelor of Technology in Electronics & Communication Engineering",
+      duration: "August 2017 - August 2021",
       desc: "",
       descBullets: [
-        " Object Oritented Modelling and Design, Cloud Computing, Unix Shell Programming, Topics in Deep Learning",
-        " Data Structures, Operating Systems, Big Data, Social Network Analysis, Software Engineering"
+        " Object-Oriented Programming, Data Structures and Algorithms, Operating System",
+        " Database Systems, Machine Learning, Software Engineering"
       ]
     }
   ]
@@ -176,53 +178,27 @@ const workExperiences = {
     //   ]
     // },
     {
-      role: "Full Stack Web Assistant",
-      company: "EdPlus at ASU",
-      companylogo: require("./assets/images/asu-logo-purple.png"),
-      date: "Feb 2023 – Present",
+      role: "Application Development Associate",
+      company: "Accenture",
+      companylogo: require("./assets/images/accenture.png"),
+      date: "Aug 2021 – May 2022",
       desc: "",
-      descBullets: [
-        // "Maintaining ASU online website supporting 82,000+ students and 300+ degree programs with Vue.js, AWS and Javascript.",
-        // "Building custom Docker images and dockerfiles while handling its orchestration and containerization in AWS services using Terraform",
-        "Developed a full fledged scheduling app using AWS Amplify and Vue3, customizing functionalities usingTailwind, Cognito, DynamoDB, GraphQL, and Lambda. Replaced the Doodle scheduler app and reduced costs by 70%.",
-        "Conducted a successful Proof of Concept using Terraform and AWSECR to automate the deployment of containerized applications, reducing deployment time by 30%."
+      descBullets: ["Collaborated with Agilent and internal teams to troubleshoot software issues, significantly improving file upload speeds by up to 30%.",
+        "Served as primary client liaison for the Openlab application, taking ownership of the application and proactively identifying and debugging core issues to ensure optimal performance and customer satisfaction.",
+        "Supported life science applications like Openlab and Empower, clearing approximately 90 software issues and incidents weekly. Leveraged project management software JIRA to track the project's progress and Git for version control to complete it two weeks before the expected duration."
       ]
     },
     {
-      role: "Software Developer Engineer",
-      company: "Akamai Technolgies",
-      companylogo: require("./assets/images/akamai-logo-white.png"),
+      role: "Software Development Intern",
+      company: "Surya Software Pvt Ltd",
+      companylogo: require("./assets/images/SuryaSoft2.png"),
       date: "July 2021 – July 2022",
       desc: "",
       descBullets: [
-        "Developed a monitoring system for alerting data entry lags on SingleStore distributed database systems. Used Prometheus and Splunk features to include 2 billion rows of data added every day in alerting.",
-        "Programmed exhaustive python wrappers and frameworks on Flink for future scalability and deployment, increasing efficiency by 30x. Helped transfer millions of data rows to SingleStore DBs before sunsetting out Oracle DBs.",
+        "Designed and developed responsive web pages utilizing React.Js library, ChartJs, and FluentUI framework, achieving highly visual and interactive user interfaces that effectively convey complex data and information.",
+        "Programmed a dashboard that handles POST requests, handling user concurrency up to 10. Collaborated with a team of five to enhance existing code, integrating new features such as the date and currency selection to boost user engagement and interactivity. Worked closely with team members to identify and resolve bugs and ensure smooth project delivery.",
       ]
     },
-    {
-      role: "Software Developer Intern",
-      company: "Akamai Technologies",
-      companylogo: require("./assets/images/akamai-logo-white.png"),
-      date: "Jan 2021 – June 2021",
-      desc: "",
-      descBullets: [
-        "Modified the core open-source Airflow files to include a remedy force element for alerts of all applications scheduled.",
-        "Collaborated with a team of 7 to design and build multiple workflows of Flink data pipelines through airflow scheduler.",
-        // "Overhauled a library of core legacy codes, making them future-proof and reusable for a new product launch."
-        "Overhauled a library of core legacy codes with SOLID principles, increasing code reusability for future products by 60%."
-      ]
-    },
-    {
-      role: "Summer Research Intern",
-      company: "IIT-Bombay",
-      companylogo: require("./assets/images/iitb-logo-white.jpg"),
-      date: "May 2019 – July 2019",
-      desc: " ",
-      descBullets: [
-        "Reconstructed plants into a 3D model using an Xbox Kinect to track growth non-intrusively and separate the leaves virtually using meshlab.",
-        "Automated the entire setup to reduce any human error and save 3+ hours of daily observation and analysis of the plants."
-      ]
-    }
   ]
 };
 
@@ -241,62 +217,62 @@ const bigProjects = {
   subtitle: "Some of my most favorite projects in no particular order",
   projects: [
     {
-      image: require("./assets/images/openstack-logo3.png"),
-      projectName: "Hybrid Cloud Smart Classrom",
-      projectDesc: "Used AWS services and RedHat OpenStack for a hybrid cloud setup to detect student faces in a classroom",
+      image: require("./assets/images/androidsecurity2.png"),
+      projectName: "Android Security",
+      projectDesc: "Android Studio application incorporating dynamic features and advanced malware detection capabilities to enhance mobile device security.",
       footerLink: [
-        {
-          name: "Visit repo",
-          url: "https://github.com/Surya-Narayan/546-lambda"
-        }
+        // {
+        //   name: "Visit repo",
+        //   url: "https://github.com/Surya-Narayan/546-lambda"
+        // }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/deepfake-logo.webp"),
-      projectName: "Deepfake Detection",
-      projectDesc: "Deepfake detection of any kind of media using Deep Learning models. Built a website for anyone to test for deepfakes. ",
+      image: require("./assets/images/employeeinformation.png"),
+      projectName: "Employee Information",
+      projectDesc: "An AWS project integration AngularJS with secure user authentication which lets the user store, add and search employee information. ",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: " https://detect-deepfake.web.app/"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: " https://detect-deepfake.web.app/"
+        // }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/rideshare-logo.png"),
-      projectName: "Rideshare on AWS",
-      projectDesc: "Built a fault-tolerant, highly available DB as a master-slave architecture on Amazon EC2 instances.",
+      image: require("./assets/images/journalapplication.png"),
+      projectName: "Journal Application",
+      projectDesc: "an Android application on Android Studio using the MVC (Model-View-Controller) structure to add/modify, store, and share journals.",
       footerLink: [
-        {
-          name: "Visit repo",
-          url: "https://github.com/Surya-Narayan/Cloud-Computing/tree/master/CC_0094_0155_0260_1509_Final_Project"
-        }
+        // {
+        //   name: "Visit repo",
+        //   url: "https://github.com/Surya-Narayan/Cloud-Computing/tree/master/CC_0094_0155_0260_1509_Final_Project"
+        // }
       ]
     },
     {
-      image: require("./assets/images/pacman-logo2.png"),
-      projectName: "SFLA in Pacman",
-      projectDesc: "Shuffled Frog Leaping Algorithm algorithm implemented in Pacman game to catch the player more intelligently",
+      image: require("./assets/images/VANET2.png"),
+      projectName: "Simulating VANET Routing Protocols",
+      projectDesc: "Simulated and analysed Topological and Geographical Vehicular ad hoc Network(VANET) routing protocols over real-world scenarios and Bengaluru locality map",
       footerLink: [
-        {
-          name: "Visit repo",
-          url: "https://github.com/Surya-Narayan/Pacman"
-        }
+        // {
+        //   name: "Visit repo",
+        //   url: "https://github.com/Surya-Narayan/Pacman"
+        // }
       ]
     },
-    {
-      image: require("./assets/images/hive-logo.png"),
-      projectName: "Mini Hive Engine",
-      projectDesc: "Map-Reduce-based mini SQL Engine on Hadoop supporting SQL queries like select, load, delete, and aggregate functions",
-      footerLink: [
-        {
-          name: "Visit repo",
-          url: "https://github.com/Surya-Narayan/MiniHiveEngine"
-        }
-      ]
-    },
+    // {
+    //   image: require("./assets/images/hive-logo.png"),
+    //   projectName: "Mini Hive Engine",
+    //   projectDesc: "Map-Reduce-based mini SQL Engine on Hadoop supporting SQL queries like select, load, delete, and aggregate functions",
+    //   footerLink: [
+    //     {
+    //       name: "Visit repo",
+    //       url: "https://github.com/Surya-Narayan/MiniHiveEngine"
+    //     }
+    //   ]
+    // },
     // {
     //   image: require("./assets/images/spotify-logo.png"),
     //   projectName: "Spotify Clone Website",
@@ -308,28 +284,28 @@ const bigProjects = {
     //     }
     //   ]
     // },
-    {
-      image: require("./assets/images/pokemon-logo.png"),
-      projectName: "Pokemon generation with color DCGAN",
-      projectDesc: "Used Pokemon dataset to generate new pokemons with the help of color dcgan",
-      footerLink: [
-        {
-          name: "Visit repo",
-          url: "https://github.com/ACV11/Spotify-Clone"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/xbox-logo3.png"),
-      projectName: "3d Reconstruction of Plant leaves",
-      projectDesc: "Used Xbox Kinect 360, Meshlab and OpenCV to 3d reconstruct a plant and split leaves to track their measurements",
-      footerLink: [
-        {
-          name: "Visit Demo",
-          url: "https://www.youtube.com/watch?v=uF8UXjIiV0A"
-        }
-      ]
-    },
+    // {
+    //   image: require("./assets/images/pokemon-logo.png"),
+    //   projectName: "Pokemon generation with color DCGAN",
+    //   projectDesc: "Used Pokemon dataset to generate new pokemons with the help of color dcgan",
+    //   footerLink: [
+    //     {
+    //       name: "Visit repo",
+    //       url: "https://github.com/ACV11/Spotify-Clone"
+    //     }
+    //   ]
+    // },
+    // {
+    //   image: require("./assets/images/xbox-logo3.png"),
+    //   projectName: "3d Reconstruction of Plant leaves",
+    //   projectDesc: "Used Xbox Kinect 360, Meshlab and OpenCV to 3d reconstruct a plant and split leaves to track their measurements",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Demo",
+    //       url: "https://www.youtube.com/watch?v=uF8UXjIiV0A"
+    //     }
+    //   ]
+    // },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -344,41 +320,41 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "E-yantra Winners 2019",
+      title: "Arranged and managed Open House Expo",
       subtitle:
-        "E-Yantra Robotics Competition (e-YRC) 2019: 1st Place; part of a team of 4 to build a robot to find 'food' boxes efficiently.",
+        "Successfully organized and oversaw an Open House Project Expo, demonstrating my strong event management skills and ability to coordinate a large-scale event.",
       image: require("./assets/images/eyantra-logo.png"),
       imageAlt: "E-yantra Robotics IIT Bombay",
       footerLink: [
       ]
     },
-    {
-      title: "Game Oasis Hackathon Winners",
-      subtitle:
-        "Led a team of 3 in building co-op game on Unity using layer 2 Matic blockchain network.",
-      image: require("./assets/images/matic-logo4.png"),
-      imageAlt: "Game Oasis Hackathon",
-      footerLink: [
-      ]
-    },
-    {
-      title: "Intel ADAS Competition Finalists",
-      subtitle:
-        "Built a drowsiness detection on drivers trained on ML models",
-      image: require("./assets/images/intel-logo.png"),
-      imageAlt: "Intel OpenVino Drowsiness Detection",
-      footerLink: [
-      ]
-    },
-    {
-      title: "ASA DataFest Hackathon Mentor",
-      subtitle:
-        "Mentored undergraduate participants in ASA Datafest Hackathon held across multiple colleges in Arizona State ",
-      image: require("./assets/images/datafest-logo.png"),
-      imageAlt: "ASA DataFest Hackathon Mentor",
-      footerLink: [ 
-      ]
-    },
+    // {
+    //   title: "Game Oasis Hackathon Winners",
+    //   subtitle:
+    //     "Led a team of 3 in building co-op game on Unity using layer 2 Matic blockchain network.",
+    //   image: require("./assets/images/matic-logo4.png"),
+    //   imageAlt: "Game Oasis Hackathon",
+    //   footerLink: [
+    //   ]
+    // },
+    // {
+    //   title: "Intel ADAS Competition Finalists",
+    //   subtitle:
+    //     "Built a drowsiness detection on drivers trained on ML models",
+    //   image: require("./assets/images/intel-logo.png"),
+    //   imageAlt: "Intel OpenVino Drowsiness Detection",
+    //   footerLink: [
+    //   ]
+    // },
+    // {
+    //   title: "ASA DataFest Hackathon Mentor",
+    //   subtitle:
+    //     "Mentored undergraduate participants in ASA Datafest Hackathon held across multiple colleges in Arizona State ",
+    //   image: require("./assets/images/datafest-logo.png"),
+    //   imageAlt: "ASA DataFest Hackathon Mentor",
+    //   footerLink: [ 
+    //   ]
+    // },
     // {
     //   title: "PWA Web App Developer",
     //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
@@ -393,7 +369,7 @@ const achievementSection = {
     //   ]
     // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // mimick achievemnt section again 
@@ -451,20 +427,20 @@ const extracurricular = {
 const blogSection = {
   title: "Papers",
   subtitle:
-    "Research papers published at IEEE",
+    "Here are some reseach papers I presented",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://ieeexplore.ieee.org/document/9913572",
-      title: "Enhancing action maze video games using Shuffled Frog Leaping Algorithm",
+      //url: "https://ieeexplore.ieee.org/document/9913572",
+      title: "Performance Analysis of GPSR Protocols",
       description:
-        "IEEE 5th International Conference on Computational Intelligence and Communication Technologies (CCICT) -  Jul 9, 2022"
+        "National conference on “Emerging Trends in Engineering, Science and Technology (NCETEST-4)-  Jul 2, 2021"
     },
     {
-      url: "https://ieeexplore.ieee.org/document/9825423",
-      title: "Detection of Morphed Face, Body, Audio signals using Deep Neural Networks",
+      url: "https://www.ijitee.org/wp-content/uploads/papers/v9i2S/B12251292S19.pdf",
+      title: "PATIENT MONITORING SYSTEM",
       description:
-        "IEEE 7th International Conference for Convergence in Technology (I2CT) - Apr 7, 2022"
+        "The International Journal of Innovative Technology and Exploring Engineering (IJITEE) - Dec 10, 2019"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -506,8 +482,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1 (480) 736-0012",
-  email_address: "surya.narayan@asu.edu"
+  number: "+1 (602) 815-0973",
+  email_address: "pmahavee@asu.edu"
 };
 
 // Twitter Section
