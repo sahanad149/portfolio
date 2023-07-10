@@ -252,6 +252,17 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/journalapplication.png"),
+      projectName: "Revitalizing PennyJuice: Redesigning a Classic Webpage for Modern Appeal",
+      projectDesc: "Led a successful redesign of the PennyJuice website, addressing significant flaws in the original design and incorporating key HCI laws. Resulted in an aesthetically pleasing interface with a cohesive color scheme, improving user experience for ordering cases of juice concentrate.Analyzed user data from 12 participants, achieving a remarkable increase in task satisfaction, as indicated by the average SUS score rising from 34.17 to 84.5 for the redesigned website.",
+      footerLink: [
+        // {
+        //   name: "Visit repo",
+        //   url: "https://github.com/Surya-Narayan/Cloud-Computing/tree/master/CC_0094_0155_0260_1509_Final_Project"
+        // }
+      ]
+    },
+    {
       image: require("./assets/images/VANET2.png"),
       projectName: "Simulating VANET Routing Protocols",
       projectDesc: "Simulated and analysed Topological and Geographical Vehicular ad hoc Network(VANET) routing protocols over real-world scenarios and Bengaluru locality map",
