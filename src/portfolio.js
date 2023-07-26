@@ -66,8 +66,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "react",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "nodejs",
@@ -78,24 +86,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
+      skillName: "android",
+      fontAwesomeClassname: "fab fa-android"
+    },
+    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "react",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "android",
-      fontAwesomeClassname: "fab fa-android"
     },
     {
       skillName: "git",
@@ -166,17 +166,17 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Rocket Central LLC",
-    //   companylogo: require("./assets/images/rocket-logo-red.png"),
-    //   date: "May 2023 – Present",
-    //   desc: "",
-    //   descBullets: [
-    //     "Maintaining ASU online website supporting 82,000+ students and 300+ degree programs with Vue.js, AWS and Javascript.",
-    //     "Building custom Docker images and dockerfiles while handling its orchestration and containerization in AWS services using Terraform"
-    //   ]
-    // },
+    {
+      role: "Software Consultant Intern",
+      company: "Local Grown Salads",
+      companylogo: require("./assets/images/LGS5.png"),
+      date: "May 2023 – Present",
+      desc: "",
+      descBullets: [
+        "Enabled seamless integration with 3rd party applications to query product information, lots, and farms while facilitating customer data exchange for further processing.",
+        "Addressed potential security vulnerabilities within the LGS Director system and collaborated with the cybersecurity team to implement VPC security groups, restricting network access to the  AWS RDS database and Lambda function"
+      ]
+    },
     {
       role: "Application Development Associate",
       company: "Accenture",
@@ -217,7 +217,7 @@ const bigProjects = {
   subtitle: "Some of my most favorite projects in no particular order",
   projects: [
     {
-      image: require("./assets/images/androidsecurity2.png"),
+      image: require("./assets/images/Android.png"),
       projectName: "Android Security",
       projectDesc: "Android Studio application incorporating dynamic features and advanced malware detection capabilities to enhance mobile device security.",
       footerLink: [
@@ -230,7 +230,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/employeeinformation.png"),
-      projectName: "Employee Information",
+      projectName: "Employee Information Management",
       projectDesc: "An AWS project integration AngularJS with secure user authentication which lets the user store, add and search employee information. ",
       footerLink: [
         // {
@@ -242,8 +242,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/journalapplication.png"),
-      projectName: "Journal Application",
-      projectDesc: "an Android application on Android Studio using the MVC (Model-View-Controller) structure to add/modify, store, and share journals.",
+      projectName: "Android Journaling Application",
+      projectDesc: "An Android application on Android Studio using the MVC (Model-View-Controller) structure to add/modify, store, and share journals. Added the user authentication method using Google account.",
       footerLink: [
         // {
         //   name: "Visit repo",
@@ -252,20 +252,31 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/journalapplication.png"),
-      projectName: "Revitalizing PennyJuice: Redesigning a Classic Webpage for Modern Appeal",
-      projectDesc: "Led a successful redesign of the PennyJuice website, addressing significant flaws in the original design and incorporating key HCI laws. Resulted in an aesthetically pleasing interface with a cohesive color scheme, improving user experience for ordering cases of juice concentrate.Analyzed user data from 12 participants, achieving a remarkable increase in task satisfaction, as indicated by the average SUS score rising from 34.17 to 84.5 for the redesigned website.",
+      image: require("./assets/images/HCI.png"),
+      projectName: "Revitalizing PennyJuice for Modern Appeal",
+      projectDesc: "Redesigned the PennyJuice website, addressing flaws by incorporating key HCI laws. Analyzed user data, achieving an increase in task satisfaction of average SUS score from 34.17 to 84.5.",
+      footerLink: [
+        {
+          name: "View redesign",
+          url: "https://un26ff.axshare.com/#id=p5vr8a&p=homepage"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/FakeReviews.png"),
+      projectName: "Fake Reviews Detection",
+      projectDesc: "Analyzed fake and authentic reviews using machine learning models, identifying key features like date variance, activity time for differentiation.Compared model performance, with Random Forest outperforming SVM and deep learning. Proposed utilizing review content, sentiment analysis, emphasizing the importance of larger review corpus.",
       footerLink: [
         // {
-        //   name: "Visit repo",
-        //   url: "https://github.com/Surya-Narayan/Cloud-Computing/tree/master/CC_0094_0155_0260_1509_Final_Project"
+        //   name: "View redesign",
+        //   url: "https://un26ff.axshare.com/#id=p5vr8a&p=homepage"
         // }
       ]
     },
     {
       image: require("./assets/images/VANET2.png"),
-      projectName: "Simulating VANET Routing Protocols",
-      projectDesc: "Simulated and analysed Topological and Geographical Vehicular ad hoc Network(VANET) routing protocols over real-world scenarios and Bengaluru locality map",
+      projectName: "Topological and Geographical VANET Routing Protocol Analysis",
+      projectDesc: "Simulated and analysed Topological and Geographical Vehicular ad hoc Network(VANET) routing protocols over real-world scenarios and Bengaluru locality map and analysed/compared the results to determine the best suited protocols for scenarios.",
       footerLink: [
         // {
         //   name: "Visit repo",
