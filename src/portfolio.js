@@ -26,7 +26,7 @@ const greeting = {
     "A Computer Science Graduate Student at Arizona State University passionate about Software Development with experience in building applications with Javascript / AWS and proficiency in Java/C."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1z7oDqWKtvx5biHFJxsLAU8Kuyw5I3YF8/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1N184u4PVUUqLkwr25gfvLEzcEUO-01iR/edit?usp=sharing&ouid=102853679855982342543&rtpof=true&sd=true", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   gmail: "pmahavee@asu.edu",
-  github: "https://github.com/Prajwal-1999-max",
+  github: "https://github.com/PrajwalMahaveera",
   linkedin: "https://www.linkedin.com/in/prajwal-mahaveera",
   
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -173,8 +173,8 @@ const workExperiences = {
       date: "May 2023 – Present",
       desc: "",
       descBullets: [
-        "Enabled seamless integration with 3rd party applications to query product information, lots, and farms while facilitating customer data exchange for further processing.",
-        "Addressed potential security vulnerabilities within the LGS Director system and collaborated with the cybersecurity team to implement VPC security groups, restricting network access to the  AWS RDS database and Lambda function"
+        "Wrote SQL queries to manage table deletions and modifications within AWS RDS. Collaborated on testing AWS Lambda functions using Postman, leading to a noteworthy enhancement of results by 20%.",
+        "Collaborated with cross-functional teams to build Dataflow diagrams, designed and executed a team roadmap, leading a group of four to achieve successful results."
       ]
     },
     {
@@ -199,6 +199,17 @@ const workExperiences = {
         "Programmed a dashboard that handles POST requests, handling user concurrency up to 10. Collaborated with a team of five to enhance existing code, integrating new features such as the date and currency selection to boost user engagement and interactivity. Worked closely with team members to identify and resolve bugs and ensure smooth project delivery.",
       ]
     },
+    {
+      role: "GCSE 477: Introduction to Computer-Aided Geometric Design",
+      company: "Grader",
+      companylogo: require("./assets/images/ASU.png"),
+      date: "August 2023 – Present",
+      desc: "",
+      descBullets: [
+        "Assessed assignments, exams, or projects  for CSE477 using Wolfram Mathematica based on established criteria.",
+        "Provided clear and constructive feedback to students to help them understand their strengths and areas for improvement. Assisted in generating grade reports or summaries for instructors or academic departments."
+      ]
+    },
   ]
 };
 
@@ -218,7 +229,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/Android.png"),
-      projectName: "Android Security",
+      projectName: "Enhanced Android Security with ML Malware Detection",
       projectDesc: "Android Studio application incorporating dynamic features and advanced malware detection capabilities to enhance mobile device security.",
       footerLink: [
         // {
@@ -230,7 +241,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/employeeinformation.png"),
-      projectName: "Employee Information Management",
+      projectName: "Serverless Employee Details Management",
       projectDesc: "An AWS project integration AngularJS with secure user authentication which lets the user store, add and search employee information. ",
       footerLink: [
         // {
