@@ -20,22 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Prajwal Mahaveera",
-  title: "Hey, I'm Prajwal",
+  username: "Sahana Deepak",
+  title: "Hey, this is Sahana",
   subTitle: emoji(
-    "A Computer Science Graduate Student at Arizona State University passionate about Software Development with experience in building applications with Javascript / AWS and proficiency in Java/C."
+    "A Computer Science Graduate Student at California State University, Dominguez Hills - passionate about Software Development with experience in building applications with Javascript and proficiency in Java/C."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1N184u4PVUUqLkwr25gfvLEzcEUO-01iR/edit?usp=sharing&ouid=102853679855982342543&rtpof=true&sd=true", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1b510YpnK7cXWg_VzSYpNczguPatKRBejJWheMsIV62o/edit", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  gmail: "pmahavee@asu.edu",
-  github: "https://github.com/PrajwalMahaveera",
-  linkedin: "https://www.linkedin.com/in/prajwal-mahaveera",
+  gmail: "sdeepak1@toromail.csudh.edu",
+  github: "https://github.com/sahanad149",
+  linkedin: "https://www.linkedin.com/in/sahana-deepak",
   
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -49,9 +49,9 @@ const skillsSection = {
   subTitle: "A Full Stack Developer with goal-driven creative mindset and passion to learn and innovate.",
   skills: [
     emoji(
-      "⚡ Currently pursuing Master's in Computer Science at Arizona State University with an experience of 1 year as an Application Development Associate at Accenture and Software Development Intern at Surya Software Pvt Ltd."
+      "⚡ Currently pursuing Master's in Computer Science at California State University, Dominguez Hills with an experience as Systems Engineer at Infosys. Ltd."
     ),
-    emoji("⚡ Currently looking for SDE Roles")
+    emoji("⚡ Currently looking for SDE and Web Developer Roles")
     // emoji(
     //   "⚡ Building custom Docker images and dockerfiles"
     // )
@@ -61,10 +61,10 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
     {
       skillName: "java",
       fontAwesomeClassname: "fab fa-java"
@@ -85,10 +85,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "android",
-      fontAwesomeClassname: "fab fa-android"
-    },
+    // {
+    //   skillName: "android",
+    //   fontAwesomeClassname: "fab fa-android"
+    // },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -101,9 +101,17 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "git",
       fontAwesomeClassname: "fab fa-github"
     },
+    // {
+    //   skillName: "angular",
+    //   fontAwesomeClassname: "fab fa-angular"
+    // },
     {
-      skillName: "angular",
-      fontAwesomeClassname: "fab fa-angular"
+      skillName: "typescript",
+      fontAwesomeClassname: "fab fa-typescript"
+    },
+    {
+      skillName: "Next.js",
+      fontAwesomeClassname: "fab fa-nextjs"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -115,15 +123,15 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Arizona State University",
-      logo: require("./assets/images/asulogo.webp"),
+      schoolName: "California State University, Dominguez Hills",
+      logo: require("./assets/images/DH-logo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - May 2024",
       desc: "",
       descBullets: [
-        "CSE 460: Software Analysis and Development, CSE 463: Intro to Human-Computer Interaction, CSE 512: Distributed Database Systems",
-        "CSE 545: Software Security, CSE 535: Mobile Computing, CSE 539: Applied Cryptography",
-        "CSE 551: Foundations of Algorithms, CSE 573: Semantic Web Mining, CSE 575: Statistical Machine Learning"
+        "CSC 500: Research Methods, CSC 501: Design Analysis and Algorithms, CSC 521: Advanced Programming Languages, CSC 585: Software Quality Assurance",
+        "CSC 582: Object oriented Design and Analysis, CSC 583: Software Engineering processes, CSC 595: Data Science",
+        "CSC 584: Software Project planning, CSC 581: Advanced Software Engineering, CSC 531: Advanced Software Architecture",
       ]
     },
     {
@@ -146,17 +154,17 @@ const techStack = {
   viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Backend/Cloud/Python/Docker", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
       Stack: "SQLs/Databases/Flink",
       progressPercentage: "70%"
     },
     {
       Stack: "Frontend/Networks/R",
-      progressPercentage: "60%"
-    }
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Backend/Cloud/Python/Docker", //Insert stack or technology you have experience in
+      progressPercentage: "60%" //Insert relative proficiency in percentage
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -166,50 +174,87 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    // {
+    //   role: "Software Consultant Intern",
+    //   company: "Local Grown Salads",
+    //   companylogo: require("./assets/images/LGS5.png"),
+    //   date: "May 2023 – Present",
+    //   desc: "",
+    //   descBullets: [
+    //     "Wrote SQL queries to manage table deletions and modifications within AWS RDS. Collaborated on testing AWS Lambda functions using Postman, leading to a noteworthy enhancement of results by 20%.",
+    //     "Collaborated with cross-functional teams to build Dataflow diagrams, designed and executed a team roadmap, leading a group of four to achieve successful results."
+    //   ]
+    // },
     {
-      role: "Software Consultant Intern",
-      company: "Local Grown Salads",
-      companylogo: require("./assets/images/LGS5.png"),
-      date: "May 2023 – Present",
+      role: "Systems Engineer",
+      company: "Infosys Ltd.",
+      companylogo: require("./assets/images/infosys-logo-png.webp"),
+      date: "October 2021 – August 2022",
+      desc: "",
+      descBullets: ["Responsible for the development, testing, implementation, warranty, and support of programs.",
+        "Implementing SDLC activities and work with project managers, engineering, and management teams to deliver high-quality software.",
+        "Tested various products, including multiple web pages and servers with manual and automated testing and recorded bugs, glitches, and other flaws.",
+        "Automated approximately 50 test cases weekly alongside the weekly product testing before every new release."
+    ]
+    },
+    {
+      role: "Supplemental Insrtructor",
+      company: "Toro Learning and Testing center",
+      companylogo: require("./assets/images/tltc-logo.png"),
+      date: "September 2022 - December 2022",
       desc: "",
       descBullets: [
-        "Wrote SQL queries to manage table deletions and modifications within AWS RDS. Collaborated on testing AWS Lambda functions using Postman, leading to a noteworthy enhancement of results by 20%.",
-        "Collaborated with cross-functional teams to build Dataflow diagrams, designed and executed a team roadmap, leading a group of four to achieve successful results."
+        "Assisted Professor(s) in grading and sharing feedback to help improve the class decorum",
+        "Assisted students in need by providing help and experience on how to navigate and solve challenges effectively in Calculus, Statistics, Maths and Physics.",
+        "Conducted personal 1:1 tutoring sessions to help students who are struggling to cope up.",
+        "Conducted group-study sessions with pre-identified students to introduce technical skills and abilities which can lead to increasing technical competence."
       ]
     },
     {
-      role: "Application Development Associate",
-      company: "Accenture",
-      companylogo: require("./assets/images/accenture.png"),
-      date: "Aug 2021 – May 2022",
-      desc: "",
-      descBullets: ["Collaborated with Agilent and internal teams to troubleshoot software issues, significantly improving file upload speeds by up to 30%.",
-        "Served as primary client liaison for the Openlab application, taking ownership of the application and proactively identifying and debugging core issues to ensure optimal performance and customer satisfaction.",
-        "Supported life science applications like Openlab and Empower, clearing approximately 90 software issues and incidents weekly. Leveraged project management software JIRA to track the project's progress and Git for version control to complete it two weeks before the expected duration."
-      ]
-    },
-    {
-      role: "Software Development Intern",
-      company: "Surya Software Pvt Ltd",
-      companylogo: require("./assets/images/SuryaSoft2.png"),
-      date: "July 2021 – July 2022",
+      role: "Workshop Intern",
+      company: "Westcal Academy",
+      companylogo: require("./assets/images/westcal-logo.png"),
+      date: "September 2022 - November 2022",
       desc: "",
       descBullets: [
-        "Designed and developed responsive web pages utilizing React.Js library, ChartJs, and FluentUI framework, achieving highly visual and interactive user interfaces that effectively convey complex data and information.",
-        "Programmed a dashboard that handles POST requests, handling user concurrency up to 10. Collaborated with a team of five to enhance existing code, integrating new features such as the date and currency selection to boost user engagement and interactivity. Worked closely with team members to identify and resolve bugs and ensure smooth project delivery.",
+        "Conducted Personal branding workshop(s) for university graduates in resume building, career orientations and solving academic challenges.",
+        "Guided university graduates by addressing the steps needed to be taken to reach their career aspirations.",
+        "Conducted seminars on topics such as Workplace ethics and How to face interviews"
       ]
     },
     {
-      role: "GCSE 477: Introduction to Computer-Aided Geometric Design",
-      company: "Grader",
-      companylogo: require("./assets/images/ASU.png"),
-      date: "August 2023 – Present",
+      role: "Writing Associate",
+      company: "CSUDH - Writing center",
+      companylogo: require("./assets/images/wc-logo.png"),
+      date: "August 2023",
       desc: "",
       descBullets: [
-        "Assessed assignments, exams, or projects  for CSE477 using Wolfram Mathematica based on established criteria.",
-        "Provided clear and constructive feedback to students to help them understand their strengths and areas for improvement. Assisted in generating grade reports or summaries for instructors or academic departments."
+        "Conducted individual tutoring sessions both in person and online, providing support for students' writing needs.",
+        "Reviewed and offered feedback on papers through asynchronous eTutoring sessions and maintained detailed session notes."
       ]
-    },
+    }
+    // {
+    //   role: "Software Development Intern",
+    //   company: "Surya Software Pvt Ltd",
+    //   companylogo: require("./assets/images/SuryaSoft2.png"),
+    //   date: "July 2021 – July 2022",
+    //   desc: "",
+    //   descBullets: [
+    //     "Designed and developed responsive web pages utilizing React.Js library, ChartJs, and FluentUI framework, achieving highly visual and interactive user interfaces that effectively convey complex data and information.",
+    //     "Programmed a dashboard that handles POST requests, handling user concurrency up to 10. Collaborated with a team of five to enhance existing code, integrating new features such as the date and currency selection to boost user engagement and interactivity. Worked closely with team members to identify and resolve bugs and ensure smooth project delivery.",
+    //   ]
+    // },
+    // {
+    //   role: "GCSE 477: Introduction to Computer-Aided Geometric Design",
+    //   company: "Grader",
+    //   companylogo: require("./assets/images/ASU.png"),
+    //   date: "August 2023 – Present",
+    //   desc: "",
+    //   descBullets: [
+    //     "Assessed assignments, exams, or projects  for CSE477 using Wolfram Mathematica based on established criteria.",
+    //     "Provided clear and constructive feedback to students to help them understand their strengths and areas for improvement. Assisted in generating grade reports or summaries for instructors or academic departments."
+    //   ]
+    // },
   ]
 };
 
@@ -227,22 +272,22 @@ const bigProjects = {
   title: "Projects",
   subtitle: "Some of my most favorite projects in no particular order",
   projects: [
-    {
-      image: require("./assets/images/Android.png"),
-      projectName: "Enhanced Android Security with ML Malware Detection",
-      projectDesc: "Android Studio application incorporating dynamic features and advanced malware detection capabilities to enhance mobile device security.",
-      footerLink: [
-        // {
-        //   name: "Visit repo",
-        //   url: "https://github.com/Surya-Narayan/546-lambda"
-        // }
-        //  you can add extra buttons here.
-      ]
-    },
+    // {
+    //   image: require("./assets/images/Android.png"),
+    //   projectName: "Enhanced Android Security with ML Malware Detection",
+    //   projectDesc: "Android Studio application incorporating dynamic features and advanced malware detection capabilities to enhance mobile device security.",
+    //   footerLink: [
+    //     // {
+    //     //   name: "Visit repo",
+    //     //   url: "https://github.com/Surya-Narayan/546-lambda"
+    //     // }
+    //     //  you can add extra buttons here.
+    //   ]
+    // },
     {
       image: require("./assets/images/employeeinformation.png"),
-      projectName: "Serverless Employee Details Management",
-      projectDesc: "An AWS project integration AngularJS with secure user authentication which lets the user store, add and search employee information. ",
+      projectName: "Employee Details",
+      projectDesc: " An interactive page that allows entry of employee details, allows to view each employee's information, and searches an employee allowing CRUD operations.",
       footerLink: [
         // {
         //   name: "Visit Website",
@@ -252,6 +297,11 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/E-Commerce-Logo.png"),
+      projectName: "ECommerce React Application with Stripe",
+      projectDesc: "A dynamic, responsive e-commerce app with sleek design, animations, CMS for product management, advanced cart features, and secure Stripe integration for real payments."
+    },
+    /*{
       image: require("./assets/images/journalapplication.png"),
       projectName: "Android Journaling Application",
       projectDesc: "An Android application on Android Studio using the MVC (Model-View-Controller) structure to add/modify, store, and share journals. Added the user authentication method using Google account.",
@@ -283,7 +333,7 @@ const bigProjects = {
         //   url: "https://un26ff.axshare.com/#id=p5vr8a&p=homepage"
         // }
       ]
-    },
+    },*/
     {
       image: require("./assets/images/VANET2.png"),
       projectName: "Topological and Geographical VANET Routing Protocol Analysis",
@@ -470,11 +520,12 @@ const blogSection = {
         "National conference on “Emerging Trends in Engineering, Science and Technology (NCETEST-4)-  Jul 2, 2021"
     },
     {
-      url: "https://www.ijitee.org/wp-content/uploads/papers/v9i2S/B12251292S19.pdf",
-      title: "PATIENT MONITORING SYSTEM",
+      url: "https://www.ijitee.org/wp-content/uploads/papers/v9i2S/B10771292S19.pdf",
+      title: "E-wyre: Re-engineering higher education",
       description:
         "The International Journal of Innovative Technology and Exploring Engineering (IJITEE) - Dec 10, 2019"
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -515,8 +566,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1 (602) 815-0973",
-  email_address: "pmahavee@asu.edu"
+  number: "+1 (424) 386-5870",
+  email_address: "sdeepak1@toromail.csudh.edu"
 };
 
 // Twitter Section
