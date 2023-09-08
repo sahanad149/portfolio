@@ -9,9 +9,9 @@ export default function Footer() {
   return (
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
-        {/* <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("May the --force be with you")}
-        </p> */}
+        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+          {emoji("Skills, passion, and a sense of humor – I've got it all!")}
+        </p>
       </div>
     </Fade>
   );
