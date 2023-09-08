@@ -107,11 +107,11 @@ https://fontawesome.com/icons?d=gallery */
     // },
     {
       skillName: "typescript",
-      fontAwesomeClassname: "fab fa-typescript"
+      fontAwesomeClassname: "fas fa-typescript"
     },
     {
       skillName: "Next.js",
-      fontAwesomeClassname: "fab fa-nextjs"
+      fontAwesomeClassname: "fas fa-nextjs"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -225,7 +225,7 @@ const workExperiences = {
     {
       role: "Writing Associate",
       company: "CSUDH - Writing center",
-      companylogo: require("./assets/images/wc-logo.png"),
+      companylogo: require("./assets/images/wc-logo.jpg"),
       date: "August 2023",
       desc: "",
       descBullets: [
