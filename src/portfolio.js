@@ -85,10 +85,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    // {
-    //   skillName: "android",
-    //   fontAwesomeClassname: "fab fa-android"
-    // },
+    {
+      skillName: "android",
+      fontAwesomeClassname: "fab fa-android"
+    },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -105,14 +105,14 @@ https://fontawesome.com/icons?d=gallery */
     //   skillName: "angular",
     //   fontAwesomeClassname: "fab fa-angular"
     // },
-    {
-      skillName: "typescript",
-      fontAwesomeClassname: "fas fa-typescript"
-    },
-    {
-      skillName: "Next.js",
-      fontAwesomeClassname: "fas fa-nextjs"
-    },
+    // {
+    //   skillName: "typescript",
+    //   fontAwesomeClassname: "fas fa-typescript"
+    // },
+    // {
+    //   skillName: "Next.js",
+    //   fontAwesomeClassname: "fas fa-nextjs"
+    // },
   ],
   display: true // Set false to hide this section, defaults to true
 };
