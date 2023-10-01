@@ -198,7 +198,7 @@ const workExperiences = {
     ]
     },
     {
-      role: "Supplemental Insrtructor",
+      role: "Supplemental Instructor",
       company: "Toro Learning and Testing center",
       companylogo: require("./assets/images/tltc-logo.png"),
       date: "September 2022 - December 2022",
@@ -288,6 +288,18 @@ const bigProjects = {
       image: require("./assets/images/employeeinformation.png"),
       projectName: "Employee Details",
       projectDesc: " An interactive page that allows entry of employee details, allows to view each employee's information, and searches an employee allowing CRUD operations.",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: " https://detect-deepfake.web.app/"
+        // }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/monitoringApp.png"),
+      projectName: "Physiological Monitoring App",
+      projectDesc: "An Android app for monitoring vital signs using smartphone sensors and camera technology. It has a user-friendly interface with a comprehensive reporting system to improve user well-being.",
       footerLink: [
         // {
         //   name: "Visit Website",
