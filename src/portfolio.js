@@ -357,6 +357,11 @@ const bigProjects = {
         // }
       ]
     },
+    {
+      image: require("./assets/images/parkinson.jpg"),
+      projectName: "Parkinson's Disease Detection using Machine Learning",
+      projectDesc: "Detection of early symptoms of Parkinson's Disease using a Machine Learning model. Compared model performance using five different ML algorithms, outperforming SVM and deep learning."
+    }
     // {
     //   image: require("./assets/images/hive-logo.png"),
     //   projectName: "Mini Hive Engine",
