@@ -61,10 +61,10 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
     {
       skillName: "java",
       fontAwesomeClassname: "fab fa-java"
@@ -414,20 +414,53 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Workshops And Certifications 🏆 "),
   subtitle:
-    "Achievements, Participations and Some Cool Stuff that I have done !",
+    "Certifications, Participations and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    // {
+    //   title: "Arranged and managed Open House Expo",
+    //   subtitle:
+    //     "Successfully organized and oversaw an Open House Project Expo, demonstrating my strong event management skills and ability to coordinate a large-scale event.",
+    //   image: require("./assets/images/eyantra-logo.png"),
+    //   imageAlt: "E-yantra Robotics IIT Bombay",
+    //   footerLink: [
+    //   ]
+    // },
+
     {
-      title: "Arranged and managed Open House Expo",
-      subtitle:
-        "Successfully organized and oversaw an Open House Project Expo, demonstrating my strong event management skills and ability to coordinate a large-scale event.",
-      image: require("./assets/images/eyantra-logo.png"),
-      imageAlt: "E-yantra Robotics IIT Bombay",
+      title: "Entrepreneur Development Camp by IIM-B",
+      subtitle: "ksjdhbfksdjf",
+      image: require("./assets/images/edc-iimb.webp"),
+      // imageAlt: "EDC at IIM-Bangalore"
       footerLink: [
       ]
     },
+    {
+      title: "Multisim 12.0 under National Instruments",
+      subtitle: "suehfnsdufh",
+      image: require("./assets/images/multi-ni.jpg"),
+      // imageAlt: "Workshop by NI"
+      footerLink: [
+      ]
+    },
+    {
+      title: "PCB Designing using Keil and Proteus",
+      subtitle: "ksajdfbkasjfba",
+      image: require("./assets/images/pcb.png"),
+      // imageAlt: "Microcontroller 8051"
+      footerLink: [
+      ]
+    },
+    {
+      title: "LabView by VI Solutions",
+      subtitle: "ewfgbeskfeksuf",
+      image: require("./assets/images/vis.jpg"),
+      // imageAlt: "Workshop by VI Solutions"
+      footerLink: [
+      ]
+    }
     // {
     //   title: "Game Oasis Hackathon Winners",
     //   subtitle:
