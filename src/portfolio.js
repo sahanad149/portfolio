@@ -26,7 +26,7 @@ const greeting = {
     "A Computer Science Graduate Student at California State University, Dominguez Hills - passionate about Software Development with experience in building applications with Javascript and proficiency in Java/C."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1b510YpnK7cXWg_VzSYpNczguPatKRBejJWheMsIV62o/edit", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -77,6 +77,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "react",
       fontAwesomeClassname: "fab fa-react"
     },
+    // {
+    //   skillName: "typescript",
+    //   fontAwesomeClassname: "fab fa-typescript"
+    // },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
@@ -101,6 +105,23 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "git",
       fontAwesomeClassname: "fab fa-github"
     },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },
+    // {
+    //   skillName: "postman",
+    //   fontAwesomeClassname: "fab fa-postman"
+    // },
+    {
+      skillName: "jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
+    }
+
     // {
     //   skillName: "angular",
     //   fontAwesomeClassname: "fab fa-angular"
@@ -186,15 +207,27 @@ const workExperiences = {
     //   ]
     // },
     {
+      role: "Volunteer Software Development Intern",
+      company: "CSUDH",
+      companylogo: require("./assets/images/i&i_volunteer.png"),
+      date: "March 2024",
+      desc: "",
+      descBullets: ["Designed UI prototypes using Figma, effectively translating client requirements into visually appealing and user-friendly interface designs.",
+        "Engineered dynamic and responsive front-end using Vite and React.js, transforming concepts into seamless digitally engaging web experiences.",
+        "Demonstrated strong communication and problem-solving skills, effectively communicating with stakeholders to gather requirements and address feedback throughout the development process.",
+        "Exhibited a proactive and self-motivated approach to learning and professional development, seeking out opportunities to expand skills and knowledge in software development and design principles."
+    ]
+    },
+    {
       role: "Systems Engineer",
       company: "Infosys Ltd.",
       companylogo: require("./assets/images/infosys-logo-png.webp"),
       date: "October 2021 – August 2022",
       desc: "",
-      descBullets: ["Responsible for the development, testing, implementation, warranty, and support of programs.",
-        "Implementing SDLC activities and work with project managers, engineering, and management teams to deliver high-quality software.",
-        "Tested various products, including multiple web pages and servers with manual and automated testing and recorded bugs, glitches, and other flaws.",
-        "Automated approximately 50 test cases weekly alongside the weekly product testing before every new release."
+      descBullets: ["Tackled multifaceted testing challenges across a diverse array of 50+ web pages and servers, employing both manual and automated testing methodologies with specialized tools such as Selenium and Postman.",
+        "Executed automated test cases (Avg 50 per week), using Selenium and Postman, ensuring a streamlined and efficient testing process. Meticulously documented bugs and anomalies, contributing to a 20% reduction in post-release issues.",
+        "Collaborated with QA Engineers to devise and execute comprehensive testing strategies for 10+ mobile web features, resulting in a 15% enhancement in overall application performance.",
+        "Adopted Jenkins for pre-release product testing weekly, optimizing testing efficiency and showcasing proficiency in continuous integration."
     ]
     },
     {
@@ -284,6 +317,22 @@ const bigProjects = {
     //     //  you can add extra buttons here.
     //   ]
     // },
+
+
+    {
+      image: require("./assets/images/FaceRecg.png"),
+      projectName: "Cloud-Based Facial Recognition Solution",
+      projectDesc: " An end-to-end facial recognition system, strategically utilizing AWS Rekognition with seamless integration of AWS Amplify, optimizing processes and achieving a remarkable 80% accuracy in image analysis.",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: " https://detect-deepfake.web.app/"
+        // }
+        //  you can add extra buttons here.
+      ]
+    },
+
+
     {
       image: require("./assets/images/employeeinformation.png"),
       projectName: "Employee Details",
