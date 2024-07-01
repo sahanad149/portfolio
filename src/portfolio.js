@@ -151,7 +151,7 @@ const educationInfo = {
       desc: "",
       descBullets: [
         "CSC 500: Research Methods, CSC 501: Design Analysis and Algorithms, CSC 521: Advanced Programming Languages, CSC 585: Software Quality Assurance",
-        "CSC 582: Object oriented Design and Analysis, CSC 583: Software Engineering processes, CSC 595: Data Science",
+        "CSC 582: Object oriented Design and Analysis, CSC 583: Software Engineering processes, CSC 595: Data Science, CSC 546: Human Computer Interaction", 
         "CSC 584: Software Project planning, CSC 581: Advanced Software Engineering, CSC 531: Advanced Software Architecture",
       ]
     },
@@ -207,10 +207,22 @@ const workExperiences = {
     //   ]
     // },
     {
-      role: "Volunteer Software Development Intern",
+      role: "Research Assistant",
+      company: "Cedars-Sinai, CSUDH",
+      companylogo: require("./assets/images/cslogo.jpeg"),
+      date: "February 2024 - May 2024",
+      desc: "",
+      descBullets: ["Conducted gene expression analysis and classification for BRCA, KIRC, COAD, LUAD, and PRAD cancers using RNA-Seq (HiSeq) dataset, utilizing advanced machine learning methods including SVM, Random Forest, Naïve Bayes, and Neural Networks for model building.",
+        "Employed data balancing techniques to address class imbalance issues and performed feature selection using Mutual Information and Recursive Feature Elimination, developing robust classification models for patient differentiation to improve cancer diagnosis and individualized treatment plans.",
+        "Prepared research proposals, monitored research projects, investigated applications of new technologies and presented research progress through technical briefs and reports.",
+        "Developed, scoped, and coordinated technical engineering research projects for the evaluation, development, testing, and demonstration of ITS, managing internal and contract research projects, ensuring effective task orders, and reporting on project progress."
+    ]
+    },
+    {
+      role: "Software Development Intern",
       company: "CSUDH",
       companylogo: require("./assets/images/i&i_volunteer.png"),
-      date: "March 2024",
+      date: "March 2024 - May 2024",
       desc: "",
       descBullets: ["Designed UI prototypes using Figma, effectively translating client requirements into visually appealing and user-friendly interface designs.",
         "Engineered dynamic and responsive front-end using Vite and React.js, transforming concepts into seamless digitally engaging web experiences.",
